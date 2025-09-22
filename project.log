@@ -16,3 +16,48 @@ INFO 2025-09-21 16:48:35,802 views Ping endpoint was called
 INFO 2025-09-21 16:48:35,804 basehttp "GET / HTTP/1.1" 200 32
 INFO 2025-09-21 16:48:41,292 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\Telecom_Management\urls.py changed, reloading.
 INFO 2025-09-21 16:48:42,312 autoreload Watching for file changes with StatReloader
+INFO 2025-09-22 19:30:04,097 autoreload Watching for file changes with StatReloader
+INFO 2025-09-22 19:30:09,980 views Ping endpoint was called
+INFO 2025-09-22 19:30:09,985 basehttp "GET / HTTP/1.1" 200 32
+WARNING 2025-09-22 19:30:10,299 log Not Found: /favicon.ico
+WARNING 2025-09-22 19:30:10,300 basehttp "GET /favicon.ico HTTP/1.1" 404 2363
+INFO 2025-09-22 19:30:30,674 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\Telecom_Management\urls.py changed, reloading.
+INFO 2025-09-22 19:30:31,677 autoreload Watching for file changes with StatReloader
+INFO 2025-09-22 19:30:36,595 views Ping endpoint was called
+INFO 2025-09-22 19:30:36,597 basehttp "GET / HTTP/1.1" 200 32
+WARNING 2025-09-22 19:30:43,424 log Not Found: /api/docs/
+WARNING 2025-09-22 19:30:43,425 basehttp "GET /api/docs/ HTTP/1.1" 404 3138
+INFO 2025-09-22 19:33:11,131 autoreload Watching for file changes with StatReloader
+INFO 2025-09-22 19:33:26,048 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\Telecom_Management\urls.py changed, reloading.
+INFO 2025-09-22 19:33:27,103 autoreload Watching for file changes with StatReloader
+INFO 2025-09-22 19:34:11,071 autoreload Watching for file changes with StatReloader
+INFO 2025-09-22 19:38:27,441 autoreload Watching for file changes with StatReloader
+INFO 2025-09-22 19:40:18,716 autoreload Watching for file changes with StatReloader
+INFO 2025-09-22 19:40:24,296 views Ping endpoint was called
+INFO 2025-09-22 19:40:24,298 basehttp "GET / HTTP/1.1" 200 32
+INFO 2025-09-22 19:40:34,270 basehttp "GET /api/docs/ HTTP/1.1" 200 4655
+INFO 2025-09-22 19:40:34,662 basehttp "GET /api/schema/ HTTP/1.1" 200 8459
+INFO 2025-09-22 19:43:07,168 basehttp "POST /api/register/ HTTP/1.1" 201 84
+WARNING 2025-09-22 19:43:26,479 log Unauthorized: /api/login/
+WARNING 2025-09-22 19:43:26,480 basehttp "POST /api/login/ HTTP/1.1" 401 63
+INFO 2025-09-22 19:43:37,429 basehttp "POST /api/login/ HTTP/1.1" 200 489
+INFO 2025-09-22 19:44:19,783 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\Telecom_Management\urls.py changed, reloading.
+INFO 2025-09-22 19:44:21,196 autoreload Watching for file changes with StatReloader
+INFO 2025-09-22 19:44:23,860 basehttp "GET /api/docs/ HTTP/1.1" 200 4655
+INFO 2025-09-22 19:44:24,118 basehttp "GET /api/schema/ HTTP/1.1" 200 8459
+INFO 2025-09-22 19:46:32,161 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\Telecom_Management\views.py changed, reloading.
+INFO 2025-09-22 19:46:33,398 autoreload Watching for file changes with StatReloader
+INFO 2025-09-22 19:46:39,930 basehttp "GET /api/docs/ HTTP/1.1" 200 4655
+INFO 2025-09-22 19:46:40,200 basehttp "GET /api/schema/ HTTP/1.1" 200 8955
+INFO 2025-09-22 19:48:04,958 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\Telecom_Management\views.py changed, reloading.
+INFO 2025-09-22 19:48:07,563 autoreload Watching for file changes with StatReloader
+INFO 2025-09-22 19:48:12,808 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\Telecom_Management\views.py changed, reloading.
+INFO 2025-09-22 19:48:14,888 autoreload Watching for file changes with StatReloader
+INFO 2025-09-22 19:57:54,516 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\accounts\views.py changed, reloading.
+INFO 2025-09-22 19:57:56,769 autoreload Watching for file changes with StatReloader
+INFO 2025-09-22 19:57:59,844 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\accounts\views.py changed, reloading.
+INFO 2025-09-22 19:58:02,036 autoreload Watching for file changes with StatReloader
+INFO 2025-09-22 19:58:35,613 basehttp "GET /api/docs/ HTTP/1.1" 200 4655
+INFO 2025-09-22 19:58:36,298 basehttp "GET /api/schema/ HTTP/1.1" 200 9636
+INFO 2025-09-22 19:59:12,650 views Ping endpoint was called
+INFO 2025-09-22 19:59:12,651 basehttp "GET /api/ HTTP/1.1" 200 32

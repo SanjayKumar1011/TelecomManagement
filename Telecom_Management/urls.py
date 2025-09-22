@@ -17,12 +17,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 from Telecom_Management.views import ping
+from  drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('api/', include('accounts.urls')),
+    path('api/', include('accounts.urls')),
     # path('api/', include('services.urls')),
     # path('api/', include('requests.urls')),
     # path('api/', include('reports.urls')),
-    path('',ping) 
+    path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
+    path('api/docs/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
+    path('api/',ping) 
 ]
