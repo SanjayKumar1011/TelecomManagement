@@ -61,3 +61,85 @@ INFO 2025-09-22 19:58:35,613 basehttp "GET /api/docs/ HTTP/1.1" 200 4655
 INFO 2025-09-22 19:58:36,298 basehttp "GET /api/schema/ HTTP/1.1" 200 9636
 INFO 2025-09-22 19:59:12,650 views Ping endpoint was called
 INFO 2025-09-22 19:59:12,651 basehttp "GET /api/ HTTP/1.1" 200 32
+INFO 2025-09-24 20:08:16,802 autoreload Watching for file changes with StatReloader
+WARNING 2025-09-24 20:08:23,489 log Not Found: /
+WARNING 2025-09-24 20:08:23,490 basehttp "GET / HTTP/1.1" 404 2950
+WARNING 2025-09-24 20:08:23,606 log Not Found: /favicon.ico
+WARNING 2025-09-24 20:08:23,608 basehttp "GET /favicon.ico HTTP/1.1" 404 3001
+INFO 2025-09-24 20:08:30,456 basehttp "GET /api/docs/ HTTP/1.1" 200 4655
+INFO 2025-09-24 20:08:31,166 basehttp "GET /api/schema/ HTTP/1.1" 200 16531
+INFO 2025-09-24 20:09:15,293 views Fetching plans list from redis cache
+ERROR 2025-09-24 20:09:18,004 log Internal Server Error: /api/plans/
+Traceback (most recent call last):
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django_redis\cache.py", line 99, in _get
+    return self.client.get(key, default=default, version=version, client=client)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django_redis\client\default.py", line 300, in get
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\services\views.py", line 27, in get
+    cached_plans = cache.get('plans_list')
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django_redis\cache.py", line 92, in get
+    value = self._get(key, default, version, client)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__  # noqa: B904
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django_redis\client\default.py", line 298, in get
+    value = client.get(key)
+            ^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\redis\commands\core.py", line 1829, in get
+    return self.execute_command("GET", name, keys=[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\redis\client.py", line 621, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\redis\client.py", line 627, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\redis\utils.py", line 195, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\redis\connection.py", line 1533, in get_connection
+    connection.connect()
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\redis\connection.py", line 380, in connect
+    self.connect_check_health(check_health=True)
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\redis\connection.py", line 397, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+ERROR 2025-09-24 20:09:18,023 basehttp "GET /api/plans/ HTTP/1.1" 500 25412
+INFO 2025-09-24 20:11:54,081 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\Telecom_Management\settings.py changed, reloading.
+INFO 2025-09-24 20:11:56,037 autoreload Watching for file changes with StatReloader
+INFO 2025-09-24 20:12:05,516 views Fetching plans list from redis cache
+INFO 2025-09-24 20:12:05,516 views Cache miss - querying database for plans
+INFO 2025-09-24 20:12:05,612 basehttp "GET /api/plans/ HTTP/1.1" 200 2

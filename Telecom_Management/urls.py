@@ -1,9 +1,4 @@
 """
-URL configuration for Telecom_Management project.
-
-The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/5.2/topics/http/urls/
-Examples:
 Function views
     1. Add an import:  from my_app import views
     2. Add a URL to urlpatterns:  path('', views.home, name='home')
@@ -22,7 +17,7 @@ from  drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('accounts.urls')),
-    # path('api/', include('services.urls')),
+    path('api/', include('services.urls')),
     # path('api/', include('requests.urls')),
     # path('api/', include('reports.urls')),
     path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
