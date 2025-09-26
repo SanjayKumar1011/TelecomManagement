@@ -143,3 +143,24 @@ INFO 2025-09-24 20:11:56,037 autoreload Watching for file changes with StatReloa
 INFO 2025-09-24 20:12:05,516 views Fetching plans list from redis cache
 INFO 2025-09-24 20:12:05,516 views Cache miss - querying database for plans
 INFO 2025-09-24 20:12:05,612 basehttp "GET /api/plans/ HTTP/1.1" 200 2
+INFO 2025-09-25 19:36:42,019 autoreload Watching for file changes with StatReloader
+WARNING 2025-09-25 19:36:48,981 log Not Found: /
+WARNING 2025-09-25 19:36:48,981 basehttp "GET / HTTP/1.1" 404 2950
+WARNING 2025-09-25 19:36:49,065 log Not Found: /favicon.ico
+WARNING 2025-09-25 19:36:49,066 basehttp "GET /favicon.ico HTTP/1.1" 404 3001
+INFO 2025-09-25 19:36:52,539 basehttp "GET /api/docs/ HTTP/1.1" 200 4655
+INFO 2025-09-25 19:36:52,826 basehttp "GET /api/schema/ HTTP/1.1" 200 16531
+INFO 2025-09-25 19:37:02,494 views Fetching plans list from redis cache
+INFO 2025-09-25 19:37:02,494 views Cache miss - querying database for plans
+INFO 2025-09-25 19:37:02,648 basehttp "GET /api/plans/ HTTP/1.1" 200 2
+INFO 2025-09-25 20:31:49,218 autoreload Watching for file changes with StatReloader
+INFO 2025-09-25 20:32:40,607 autoreload Watching for file changes with StatReloader
+INFO 2025-09-25 20:33:07,314 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\Telecom_Management\settings.py changed, reloading.
+INFO 2025-09-25 20:33:08,360 autoreload Watching for file changes with StatReloader
+INFO 2025-09-25 20:33:42,755 autoreload Watching for file changes with StatReloader
+INFO 2025-09-25 20:35:57,665 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\Telecom_Management\settings.py changed, reloading.
+INFO 2025-09-25 20:35:58,617 autoreload Watching for file changes with StatReloader
+INFO 2025-09-26 18:36:19,559 autoreload Watching for file changes with StatReloader
+INFO 2025-09-26 18:36:36,166 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\Telecom_Management\settings.py changed, reloading.
+INFO 2025-09-26 18:36:37,395 autoreload Watching for file changes with StatReloader
+INFO 2025-09-26 18:47:56,013 autoreload Watching for file changes with StatReloader

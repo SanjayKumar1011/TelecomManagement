@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     "drf_spectacular",
     "accounts",
     "services",
-    "requests",
+    "userRequests",
     "reports",
 ]
 
