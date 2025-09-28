@@ -1,5 +1,6 @@
 from rest_framework.serializers import ModelSerializer,ValidationError
 from .models import Plan, Subscription
+from django.utils import timezone
 
 class PlanSerializer(ModelSerializer):
     class Meta:
@@ -21,9 +22,16 @@ class SubscriptionSerializer(ModelSerializer):
         fields = '__all__'
 
     def validate(self, data):
-        if data['end_date'] <= data['start_date']:
+        start_date = (
+        data.get('start_date') or
+        (self.instance.start_date if self.instance else timezone.now().date())
+        )
+        end_date = data.get('end_date')
+
+        if start_date and end_date and end_date <= start_date:
             raise ValidationError("End date must be after start date.")
-        return data     
+        return data
+   
     def validate_is_active(self, value):
         if not isinstance(value, bool):
             raise ValidationError("is_active must be a boolean value.")

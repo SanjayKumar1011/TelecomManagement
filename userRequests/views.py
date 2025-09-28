@@ -39,7 +39,8 @@ class ServiceRequestUpdateView(generics.UpdateAPIView):
     permission_classes = [permissions.IsAuthenticated]
 
     def update(self, request, *args, **kwargs):
-        if request.user not in ["Admin","Support"]:
+        if request.user.role.lower() not in ["admin", "support"]:
+            logger.warning(f"User {request.user.username} attempted but the user has role {request.user.role}")
             logger.warning(f"User {request.user.username} attempted to update service request without permission")
             return Response({"detail": "Only Admin or Support can Update"}, status=403)
         return super().update(request, *args, **kwargs)

@@ -164,3 +164,503 @@ INFO 2025-09-26 18:36:19,559 autoreload Watching for file changes with StatReloa
 INFO 2025-09-26 18:36:36,166 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\Telecom_Management\settings.py changed, reloading.
 INFO 2025-09-26 18:36:37,395 autoreload Watching for file changes with StatReloader
 INFO 2025-09-26 18:47:56,013 autoreload Watching for file changes with StatReloader
+WARNING 2025-09-26 18:48:00,375 log Not Found: /
+WARNING 2025-09-26 18:48:00,375 basehttp "GET / HTTP/1.1" 404 3097
+WARNING 2025-09-26 18:48:00,536 log Not Found: /favicon.ico
+WARNING 2025-09-26 18:48:00,537 basehttp "GET /favicon.ico HTTP/1.1" 404 3148
+INFO 2025-09-26 18:48:07,350 basehttp "GET /api/docs/ HTTP/1.1" 200 4655
+INFO 2025-09-26 18:48:07,677 views Fetching service requests for user 
+INFO 2025-09-26 18:48:07,677 views Fetching service requests for user 
+INFO 2025-09-26 18:48:07,702 basehttp "GET /api/schema/ HTTP/1.1" 200 26091
+WARNING 2025-09-26 18:51:45,686 log Unauthorized: /api/requests/
+WARNING 2025-09-26 18:51:45,687 basehttp "GET /api/requests/ HTTP/1.1" 401 58
+INFO 2025-09-26 20:03:15,304 autoreload Watching for file changes with StatReloader
+WARNING 2025-09-26 20:03:49,223 log Not Found: /
+WARNING 2025-09-26 20:03:49,225 basehttp "GET / HTTP/1.1" 404 3097
+WARNING 2025-09-26 20:03:49,368 log Not Found: /favicon.ico
+WARNING 2025-09-26 20:03:49,369 basehttp "GET /favicon.ico HTTP/1.1" 404 3148
+WARNING 2025-09-26 20:03:59,902 log Not Found: /
+WARNING 2025-09-26 20:03:59,902 basehttp "GET / HTTP/1.1" 404 3097
+INFO 2025-09-26 20:04:02,454 basehttp "GET /api/docs/ HTTP/1.1" 200 4655
+INFO 2025-09-26 20:04:02,775 views Fetching service requests for user 
+INFO 2025-09-26 20:04:02,778 views Fetching service requests for user 
+INFO 2025-09-26 20:04:02,789 basehttp "GET /api/schema/ HTTP/1.1" 200 26091
+INFO 2025-09-26 20:04:35,721 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\Telecom_Management\urls.py changed, reloading.
+INFO 2025-09-26 20:04:36,624 autoreload Watching for file changes with StatReloader
+INFO 2025-09-26 20:04:41,362 basehttp "GET /api/docs/ HTTP/1.1" 200 4655
+INFO 2025-09-26 20:04:41,515 views Fetching service requests for user 
+INFO 2025-09-26 20:04:41,518 views Fetching service requests for user 
+INFO 2025-09-26 20:04:41,534 basehttp "GET /api/schema/ HTTP/1.1" 200 26722
+WARNING 2025-09-26 20:05:15,243 log Unauthorized: /api/report/
+WARNING 2025-09-26 20:05:15,243 basehttp "GET /api/report/ HTTP/1.1" 401 58
+INFO 2025-09-28 18:29:44,262 autoreload Watching for file changes with StatReloader
+WARNING 2025-09-28 18:29:49,487 log Not Found: /
+WARNING 2025-09-28 18:29:49,487 basehttp "GET / HTTP/1.1" 404 3244
+WARNING 2025-09-28 18:29:49,611 log Not Found: /favicon.ico
+WARNING 2025-09-28 18:29:49,611 basehttp "GET /favicon.ico HTTP/1.1" 404 3295
+INFO 2025-09-28 18:29:52,653 basehttp "GET /api/docs/ HTTP/1.1" 200 4655
+INFO 2025-09-28 18:29:53,001 views Fetching service requests for user 
+INFO 2025-09-28 18:29:53,003 views Fetching service requests for user 
+INFO 2025-09-28 18:29:53,018 basehttp "GET /api/schema/ HTTP/1.1" 200 26722
+INFO 2025-09-28 18:38:28,873 autoreload Watching for file changes with StatReloader
+INFO 2025-09-28 18:38:34,813 basehttp "GET /api/docs/ HTTP/1.1" 200 4655
+INFO 2025-09-28 18:38:35,138 views Fetching service requests for user 
+INFO 2025-09-28 18:38:35,138 views Fetching service requests for user 
+INFO 2025-09-28 18:38:35,154 basehttp "GET /api/schema/ HTTP/1.1" 200 26722
+INFO 2025-09-28 18:42:03,970 views User John1 registered successfully with role customer
+INFO 2025-09-28 18:42:03,970 basehttp "POST /api/register/ HTTP/1.1" 201 84
+INFO 2025-09-28 18:42:55,433 basehttp "POST /api/login/ HTTP/1.1" 200 489
+INFO 2025-09-28 18:44:10,891 basehttp "POST /api/plans/ HTTP/1.1" 201 113
+WARNING 2025-09-28 18:47:40,943 log Unauthorized: /api/login/
+WARNING 2025-09-28 18:47:40,947 basehttp "POST /api/login/ HTTP/1.1" 401 63
+INFO 2025-09-28 18:48:20,075 basehttp "POST /api/login/ HTTP/1.1" 200 489
+INFO 2025-09-28 18:49:49,824 basehttp "POST /api/plans/ HTTP/1.1" 201 119
+ERROR 2025-09-28 18:52:05,226 log Internal Server Error: /api/subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\serializers.py", line 225, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\serializers.py", line 447, in run_validation
+    value = self.validate(value)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\services\serializers.py", line 24, in validate
+    if data['end_date'] <= data['start_date']:
+                           ~~~~^^^^^^^^^^^^^^
+KeyError: 'start_date'
+ERROR 2025-09-28 18:52:05,233 basehttp "POST /api/subscribe/ HTTP/1.1" 500 22650
+WARNING 2025-09-28 18:54:55,991 log Unauthorized: /api/subscribe/
+WARNING 2025-09-28 18:54:55,993 basehttp "POST /api/subscribe/ HTTP/1.1" 401 172
+INFO 2025-09-28 18:55:09,952 basehttp "POST /api/login/ HTTP/1.1" 200 489
+ERROR 2025-09-28 18:55:43,243 log Internal Server Error: /api/subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\serializers.py", line 225, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\serializers.py", line 447, in run_validation
+    value = self.validate(value)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\services\serializers.py", line 24, in validate
+    if data['end_date'] <= data['start_date']:
+                           ~~~~^^^^^^^^^^^^^^
+KeyError: 'start_date'
+ERROR 2025-09-28 18:55:43,253 basehttp "POST /api/subscribe/ HTTP/1.1" 500 22650
+INFO 2025-09-28 19:04:52,487 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\services\serializers.py changed, reloading.
+INFO 2025-09-28 19:04:54,399 autoreload Watching for file changes with StatReloader
+WARNING 2025-09-28 19:05:07,071 log Unauthorized: /api/subscribe/
+WARNING 2025-09-28 19:05:07,072 basehttp "POST /api/subscribe/ HTTP/1.1" 401 172
+INFO 2025-09-28 19:05:22,694 basehttp "POST /api/login/ HTTP/1.1" 200 489
+INFO 2025-09-28 19:06:46,963 views Creating subscription for user John1
+INFO 2025-09-28 19:06:47,006 basehttp "POST /api/subscribe/ HTTP/1.1" 201 93
+INFO 2025-09-28 19:07:03,207 views Creating subscription for user John1
+INFO 2025-09-28 19:07:03,207 basehttp "POST /api/subscribe/ HTTP/1.1" 201 93
+INFO 2025-09-28 19:07:12,697 views Creating subscription for user John1
+INFO 2025-09-28 19:07:12,704 basehttp "POST /api/subscribe/ HTTP/1.1" 201 93
+INFO 2025-09-28 19:12:21,984 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\services\serializers.py changed, reloading.
+INFO 2025-09-28 19:12:22,870 autoreload Watching for file changes with StatReloader
+INFO 2025-09-28 19:12:50,066 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\services\serializers.py changed, reloading.
+INFO 2025-09-28 19:12:50,935 autoreload Watching for file changes with StatReloader
+WARNING 2025-09-28 19:14:26,741 log Unauthorized: /api/subscribe/
+WARNING 2025-09-28 19:14:26,741 basehttp "POST /api/subscribe/ HTTP/1.1" 401 172
+INFO 2025-09-28 19:14:36,203 basehttp "POST /api/login/ HTTP/1.1" 200 489
+WARNING 2025-09-28 19:15:07,493 log Bad Request: /api/subscribe/
+WARNING 2025-09-28 19:15:07,493 basehttp "POST /api/subscribe/ HTTP/1.1" 400 59
+WARNING 2025-09-28 19:15:19,522 log Bad Request: /api/subscribe/
+WARNING 2025-09-28 19:15:19,522 basehttp "POST /api/subscribe/ HTTP/1.1" 400 59
+WARNING 2025-09-28 19:15:35,700 log Bad Request: /api/subscribe/
+WARNING 2025-09-28 19:15:35,700 basehttp "POST /api/subscribe/ HTTP/1.1" 400 59
+INFO 2025-09-28 19:16:52,767 views Creating subscription for user John1
+INFO 2025-09-28 19:16:52,774 basehttp "POST /api/subscribe/ HTTP/1.1" 201 93
+WARNING 2025-09-28 19:17:09,434 log Bad Request: /api/subscribe/
+WARNING 2025-09-28 19:17:09,434 basehttp "POST /api/subscribe/ HTTP/1.1" 400 59
+INFO 2025-09-28 19:17:28,110 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\services\serializers.py changed, reloading.
+INFO 2025-09-28 19:17:29,695 autoreload Watching for file changes with StatReloader
+INFO 2025-09-28 19:17:38,025 views Creating subscription for user John1
+INFO 2025-09-28 19:17:38,035 basehttp "POST /api/subscribe/ HTTP/1.1" 201 93
+INFO 2025-09-28 19:17:44,170 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\services\serializers.py changed, reloading.
+INFO 2025-09-28 19:17:44,994 autoreload Watching for file changes with StatReloader
+WARNING 2025-09-28 19:17:49,737 log Bad Request: /api/subscribe/
+WARNING 2025-09-28 19:17:49,737 basehttp "POST /api/subscribe/ HTTP/1.1" 400 59
+INFO 2025-09-28 19:18:01,383 views Creating subscription for user John1
+INFO 2025-09-28 19:18:01,383 basehttp "POST /api/subscribe/ HTTP/1.1" 201 93
+INFO 2025-09-28 19:18:55,599 views Creating service request for user John1
+ERROR 2025-09-28 19:18:55,883 log Internal Server Error: /api/requests/
+Traceback (most recent call last):
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "userRequests_servicerequest" does not exist
+LINE 1: INSERT INTO "userRequests_servicerequest" ("customer_id", "i...
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\generics.py", line 246, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\userRequests\views.py", line 30, in perform_create
+    serializer.save(customer=user)
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\db\models\query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\db\models\query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "userRequests_servicerequest" does not exist
+LINE 1: INSERT INTO "userRequests_servicerequest" ("customer_id", "i...
+                    ^
+
+ERROR 2025-09-28 19:18:55,893 basehttp "POST /api/requests/ HTTP/1.1" 500 27038
+INFO 2025-09-28 19:24:08,998 autoreload Watching for file changes with StatReloader
+WARNING 2025-09-28 19:24:18,224 log Unauthorized: /api/requests/
+WARNING 2025-09-28 19:24:18,224 basehttp "POST /api/requests/ HTTP/1.1" 401 172
+INFO 2025-09-28 19:24:27,766 basehttp "POST /api/login/ HTTP/1.1" 200 489
+INFO 2025-09-28 19:24:58,209 views Creating service request for user John1
+INFO 2025-09-28 19:24:58,219 basehttp "POST /api/requests/ HTTP/1.1" 201 156
+INFO 2025-09-28 19:25:41,810 views Creating service request for user John1
+INFO 2025-09-28 19:25:41,820 basehttp "POST /api/requests/ HTTP/1.1" 201 146
+WARNING 2025-09-28 19:29:51,474 log Unauthorized: /api/requests/2/
+WARNING 2025-09-28 19:29:51,475 basehttp "PATCH /api/requests/2/ HTTP/1.1" 401 172
+INFO 2025-09-28 19:30:01,350 basehttp "POST /api/login/ HTTP/1.1" 200 489
+WARNING 2025-09-28 19:30:38,126 views User John1 attempted to update service request without permission
+WARNING 2025-09-28 19:30:38,136 log Forbidden: /api/requests/2/
+WARNING 2025-09-28 19:30:38,136 basehttp "PATCH /api/requests/2/ HTTP/1.1" 403 45
+INFO 2025-09-28 19:33:45,280 basehttp "POST /api/login/ HTTP/1.1" 200 489
+WARNING 2025-09-28 19:34:13,519 views User sanjay attempted to update service request without permission
+WARNING 2025-09-28 19:34:13,520 log Forbidden: /api/requests/2/
+WARNING 2025-09-28 19:34:13,520 basehttp "PATCH /api/requests/2/ HTTP/1.1" 403 45
+INFO 2025-09-28 19:34:36,481 basehttp "GET /api/docs/ HTTP/1.1" 200 4655
+INFO 2025-09-28 19:34:36,741 views Fetching service requests for user 
+INFO 2025-09-28 19:34:36,744 views Fetching service requests for user 
+INFO 2025-09-28 19:34:36,759 basehttp "GET /api/schema/ HTTP/1.1" 200 26722
+INFO 2025-09-28 19:34:41,987 basehttp "GET /admin HTTP/1.1" 301 0
+INFO 2025-09-28 19:34:41,995 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-09-28 19:34:42,203 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+INFO 2025-09-28 19:34:42,456 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2025-09-28 19:34:42,457 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2025-09-28 19:34:42,458 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-09-28 19:34:42,461 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-09-28 19:34:42,461 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2025-09-28 19:34:42,494 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-09-28 19:34:42,504 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-09-28 19:34:50,708 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-09-28 19:34:50,805 basehttp "GET /admin/ HTTP/1.1" 200 5537
+INFO 2025-09-28 19:34:50,847 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-09-28 19:34:50,850 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-09-28 19:34:50,851 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-09-28 19:34:56,599 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 7334
+INFO 2025-09-28 19:34:56,643 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-09-28 19:34:56,653 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-09-28 19:34:56,673 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-09-28 19:34:56,676 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-09-28 19:34:56,686 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-09-28 19:34:56,686 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-09-28 19:34:56,700 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-09-28 19:34:56,702 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-09-28 19:34:56,731 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-09-28 19:34:56,749 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-09-28 19:34:56,773 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-09-28 19:34:56,816 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-09-28 19:34:56,856 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-09-28 19:37:07,973 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\accounts\admin.py changed, reloading.
+INFO 2025-09-28 19:37:08,877 autoreload Watching for file changes with StatReloader
+INFO 2025-09-28 19:37:13,293 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 8216
+INFO 2025-09-28 19:37:13,375 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-09-28 19:37:16,775 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 9722
+INFO 2025-09-28 19:37:16,854 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-09-28 19:37:45,051 basehttp "POST /api/login/ HTTP/1.1" 200 489
+WARNING 2025-09-28 19:38:12,055 views User sanju attempted to update service request without permission
+WARNING 2025-09-28 19:38:12,055 log Forbidden: /api/requests/2/
+WARNING 2025-09-28 19:38:12,055 basehttp "PATCH /api/requests/2/ HTTP/1.1" 403 45
+INFO 2025-09-28 19:38:22,783 basehttp "GET /admin/accounts/user/1/change/ HTTP/1.1" 200 22104
+INFO 2025-09-28 19:38:22,969 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+INFO 2025-09-28 19:38:22,981 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-09-28 19:38:22,986 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11991
+INFO 2025-09-28 19:38:22,986 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2025-09-28 19:38:22,986 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-09-28 19:38:23,003 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-09-28 19:38:23,028 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-09-28 19:38:23,084 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2025-09-28 19:38:23,084 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2025-09-28 19:41:14,483 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\userRequests\views.py changed, reloading.
+INFO 2025-09-28 19:41:15,316 autoreload Watching for file changes with StatReloader
+WARNING 2025-09-28 19:41:32,456 views User sanju attempted but the user has role admin
+WARNING 2025-09-28 19:41:32,456 views User sanju attempted to update service request without permission
+WARNING 2025-09-28 19:41:32,466 log Forbidden: /api/requests/2/
+WARNING 2025-09-28 19:41:32,466 basehttp "PATCH /api/requests/2/ HTTP/1.1" 403 45
+INFO 2025-09-28 19:43:52,120 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\userRequests\views.py changed, reloading.
+INFO 2025-09-28 19:43:53,017 autoreload Watching for file changes with StatReloader
+WARNING 2025-09-28 19:43:59,273 log Unauthorized: /api/requests/2/
+WARNING 2025-09-28 19:43:59,273 basehttp "PATCH /api/requests/2/ HTTP/1.1" 401 172
+INFO 2025-09-28 19:44:07,219 basehttp "POST /api/login/ HTTP/1.1" 200 489
+ERROR 2025-09-28 19:44:32,952 log Internal Server Error: /api/requests/2/
+Traceback (most recent call last):
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\generics.py", line 233, in patch
+    return self.partial_update(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\userRequests\views.py", line 42, in update
+    if request.user.lower() not in ["admin", "support"]:
+       ^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'lower'
+ERROR 2025-09-28 19:44:32,959 basehttp "PATCH /api/requests/2/ HTTP/1.1" 500 22247
+INFO 2025-09-28 19:45:34,926 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\userRequests\views.py changed, reloading.
+INFO 2025-09-28 19:45:35,779 autoreload Watching for file changes with StatReloader
+WARNING 2025-09-28 19:45:40,474 views User sanju attempted but the user has role admin
+WARNING 2025-09-28 19:45:40,474 views User sanju attempted to update service request without permission
+WARNING 2025-09-28 19:45:40,484 log Forbidden: /api/requests/2/
+WARNING 2025-09-28 19:45:40,484 basehttp "PATCH /api/requests/2/ HTTP/1.1" 403 45
+INFO 2025-09-28 19:46:51,693 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\userRequests\views.py changed, reloading.
+INFO 2025-09-28 19:46:52,492 autoreload Watching for file changes with StatReloader
+INFO 2025-09-28 19:46:59,620 basehttp "PATCH /api/requests/2/ HTTP/1.1" 200 150
+WARNING 2025-09-28 19:47:52,242 log Forbidden: /api/report/
+WARNING 2025-09-28 19:47:52,242 basehttp "GET /api/report/ HTTP/1.1" 403 63
+INFO 2025-09-28 19:54:55,282 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\reports\views.py changed, reloading.
+INFO 2025-09-28 19:54:56,100 autoreload Watching for file changes with StatReloader
+WARNING 2025-09-28 19:55:28,888 log Unauthorized: /api/report/
+WARNING 2025-09-28 19:55:28,888 basehttp "GET /api/report/ HTTP/1.1" 401 172
+INFO 2025-09-28 19:55:35,280 basehttp "POST /api/login/ HTTP/1.1" 200 489
+ERROR 2025-09-28 19:56:20,886 log Internal Server Error: /api/report/
+Traceback (most recent call last):
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 338, in check_permissions
+    if not permission.has_permission(request, self):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: IsRoleAdmin.has_permission() takes 2 positional arguments but 3 were given
+ERROR 2025-09-28 19:56:20,886 basehttp "GET /api/report/ HTTP/1.1" 500 103508
+INFO 2025-09-28 19:58:58,328 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\reports\views.py changed, reloading.
+INFO 2025-09-28 19:58:59,159 autoreload Watching for file changes with StatReloader
+INFO 2025-09-28 20:03:41,586 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\reports\permissions.py changed, reloading.
+INFO 2025-09-28 20:03:42,485 autoreload Watching for file changes with StatReloader
+WARNING 2025-09-28 20:03:51,903 log Unauthorized: /api/report/
+WARNING 2025-09-28 20:03:51,904 basehttp "GET /api/report/ HTTP/1.1" 401 172
+INFO 2025-09-28 20:03:59,492 basehttp "POST /api/login/ HTTP/1.1" 200 489
+INFO 2025-09-28 20:04:32,468 views Report generated by admin user: sanju
+ERROR 2025-09-28 20:04:32,652 log Internal Server Error: /api/report/
+Traceback (most recent call last):
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'active'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\reports\views.py", line 26, in get
+    "subscription_statistics": subscription_stats(),
+                               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\reports\utils.py", line 76, in subscription_stats
+    counts = df['active'].value_counts().to_dict()
+             ~~^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\pandas\core\frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\env\Lib\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'active'
+ERROR 2025-09-28 20:04:32,654 basehttp "GET /api/report/ HTTP/1.1" 500 117751
+INFO 2025-09-28 20:09:23,946 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\reports\views.py changed, reloading.
+INFO 2025-09-28 20:09:24,827 autoreload Watching for file changes with StatReloader
+WARNING 2025-09-28 20:09:49,896 log Unauthorized: /api/report/
+WARNING 2025-09-28 20:09:49,897 basehttp "GET /api/report/ HTTP/1.1" 401 172
+INFO 2025-09-28 20:10:00,857 basehttp "POST /api/login/ HTTP/1.1" 200 489
+INFO 2025-09-28 20:10:32,275 views Report generated by admin user: sanju
+ERROR 2025-09-28 20:10:32,279 views KeyError in report generation: 'active'
+WARNING 2025-09-28 20:10:32,279 log Bad Request: /api/report/
+WARNING 2025-09-28 20:10:32,279 basehttp "GET /api/report/ HTTP/1.1" 400 33
+INFO 2025-09-28 20:10:56,729 autoreload C:\Users\Sanjay kumar\IdeaProjects\pydjproj\TelecomCustomer and Service Mngmt\reports\utils.py changed, reloading.
+INFO 2025-09-28 20:10:57,577 autoreload Watching for file changes with StatReloader
+INFO 2025-09-28 20:11:03,373 views Report generated by admin user: sanju
+INFO 2025-09-28 20:11:03,390 basehttp "GET /api/report/ HTTP/1.1" 200 134
